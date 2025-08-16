@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CMR Technical Campus - Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header { background: #004080; color: white; padding: 15px; text-align: center; }
+    main { padding: 20px; }
+</style>
+<body>
+  <header>
+    <h1>CMR Technical Campus</h1>
+    <p>Demo page with chatbot integration</p>
+  </header>
+  
+  <main>
+    <h2>Welcome to CMR Technical Campus</h2>
+    <p>This is a demo site showing how the chatbot can be integrated.</p>
+  </main>
+  
+  <!-- Chatbot toggle button -->
+  <button id="chatbot-button">💬</button>
+  <div id="chatbot-container">
+    <iframe src="https://collegegpt-version-29.vercel.app/student-gpt"></iframe>
+    <div class="resizer top"></div>
+    <div class="resizer right"></div>
+    <div class="resizer bottom"></div>
+    <div class="resizer left"></div>
+    <div class="resizer bottom-right"></div>
+    <div class="resizer bottom-left"></div>
+    <div class="resizer top-right"></div>
+    <div class="resizer top-left"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
